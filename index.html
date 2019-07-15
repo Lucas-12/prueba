@@ -5,23 +5,76 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <!--Bootstrap-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
-    <link rel="stylesheet" href="q.css">
+    <!--Bootstrap
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">-->
+     <!--Styles CSS-->
+     <link rel="stylesheet" href="src/styles.css">
+     <!--GoogleFonts-->
+     <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
+     <!-- Animate CSS-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+     <!--FontAwesome-->
+     <script src="https://kit.fontawesome.com/296ea6cf27.js"></script>
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+     
+
 </head>
 <body>
-    <div class="cont">
-        <div class="portada">
-            <div><img src="/img/img1.jpg" alt=""></div>
-            <div><img src="/img/img2.jpg" alt=""></div>
+    <div class="contenedor">
+        <header class="encabezado">
+            <div class="logo">
+                <img src="img/nombre.png" alt="ATLAS DESIGN">
+            </div>
+        </header>
+        <div class="portada"> 
+            <div><img src="img/im.jpg" alt="a"></div>
+            <div><img src="img/fiesta1.jpg" alt="fiesta"></div>
         </div>
-    </div>
-    <h1>ewrwer</h1>
+        <div class="formulario">
+            <form action="enviar.php" method="post" class="form">
+                <h2>CONTACTO</h2>
+                <input type="text" name="nombre" placeholder="Nombre">
+                <input type="text" name="correo" placeholder="Correo" required>
+                <input type="text" name="telefono" placeholder="Telefono" required>
+                <textarea name="mensaje" placeholder="Escriba aqui su mensaje"></textarea>
+                <input type="submit" value="ENVIAR" class="boton">
+            </form>
+        </div>
+        <div class="contacto">
+            <p class="textoContacto">
+                Para confirmarle a Juli que vas a ir a su cumple
+                podes llenar el formulario de la izquierda, o avisarle a través
+                de sus redes sociales.
+            </p>
+            <p class="redesContacto">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </p>
+        </div>
+        <footer class="pie">
+            <img src="img/nombreFooter.png" alt="nombre">
+            <p class="telefono">
+                <i class="fab fa-whatsapp"></i>
+                (011) 3366 3366
+                <i class="fas fa-phone-square-alt"></i>
+            </p>
+            <p class="iconos">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fas fa-envelope"></i></a>
+            </p>
+        </footer>
 
+    </div>
+
+    <script src="src/logic.js"></script>
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="src/logic.js"></script>
     <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
-    <script src="/src/logic.js"></script>
 </body>
 </html>
